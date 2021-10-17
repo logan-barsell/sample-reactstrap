@@ -33,7 +33,7 @@ const Header = () => (
                 <NavLink className="font-weight-bold" href="/">Events</NavLink>
               </NavItem>
               
-              <UncontrolledDropdown className="d-flex align-items-center" nav inNavbar>
+              <UncontrolledDropdown className="d-flex align-items-center" nav >
                 <DropdownToggle className="font-weight-bold" nav caret>Learn</DropdownToggle>
                 <DropdownMenu right>
                   <DropdownItem className="font-weight-bold text-secondary text-uppercase" header disabled>Learn React</DropdownItem>
@@ -55,7 +55,7 @@ const Header = () => (
           
           <Col className="d-none d-lg-flex justify-content-end">
             <Form inline>
-              <Input type="search" className="mr-3" placeholder="Search React Courses" />
+              <Input type="search" className="mr-2 text-truncate" placeholder="Search React Courses.." />
               <Button type="submit" color="info" outline>Search</Button>
             </Form>
           </Col>
